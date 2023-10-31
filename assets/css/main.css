@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Roboto:ital,wght@0,500;1,300;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #140825;
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    width: 60%;
+}
+
+#end {
+    color: #8974A9;
+}
+
+nav {
+    border-bottom: solid #36264E 0.5px;
+}
+
+/* main */
+
+.polygon {
+    width: 90%;
+}
+
+
+
+.left-head > p{
+    color: #8974A9;
+}
+
+.left-head > h1 {
+    font-size: 50px;
+}
+
+.left-head > button {
+    background-color: #FF6230;
+    color: black;
+    border: none;
+}
+
+
+@media(min-width:100px) and (max-width:992px){
+
+.header {
+    display: flex;
+    justify-content: space-between !important;
+}    
+
+.navbar-nav {
+    width: 100%;
+}
+
+.left-head > h1 {
+    font-size: 40px;
+}
+
+.polygon {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.left-head {
+    width: 100% !important;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+}
+
+/* service */
+
+.title-service {
+    font-size: 60px;
+}
+
+
+
+.block {
+    background-color: #1B0C32;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 2%;
+    margin: 3%;
+    width: 50%;
+}
+
+.block > p {
+    color: #8974A9;
+}
+
+@media(min-width:100px) and (max-width:992px){
+    .block {
+        width: 90%;
+    }
+}
+
+.dop {
+    color: #FF6230;
+}
+
+.left-speed > h3 {
+    font-size: 40px;
+}
+
+.left-speed > a {
+    color: #FF6230;
+    text-decoration: none;
+    align-items: center;
+}
+
+.left-speed > a > span {
+    font-size: 20px;
+}
+
+.price > h1 {
+    font-size: 60px;
+}
+
+.block > span {
+    color: #FF6230;
+}
+
+.prot {
+    font-size: 20px;
+    margin-top: 4%;
+}
+
+.end-price > button {
+    background-color: #FF6230;
+    color: black;
+    border: none;
+}
+
+.end-price > button:hover {
+    background-color: #FF6230;
+    color: black;
+    border: none;
+}
+
+.footer {
+    border-top: solid 0.5px #8974A9;
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+}
