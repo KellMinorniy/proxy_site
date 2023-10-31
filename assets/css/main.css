@@ -151,3 +151,48 @@ nav {
     padding: 15px;
     align-items: center;
 }
+
+.input {
+    border: none;
+    box-shadow: none;
+    margin-top: 2%;
+    background: none;
+    border-bottom: 1px solid #8974A9;
+    color: white;
+    outline: none;
+}
+
+.input:active {
+    box-shadow: none;
+    outline: none;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.btn-sign {
+    background-color: #FF6230;
+    color: black;
+    border: none;
+}
+
+.btn-sign:hover {
+    background-color: #FF6230;
+    color: black;
+    border: none;
+}
+
+.pred {
+    color: #8974A9;
+}
+
+.sign-link {
+    color: white;
+}
+
+.sign-block {
+    background-color: #36264E;
+    border-radius: 13px;
+    padding: 15px;
+}
